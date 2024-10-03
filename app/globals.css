@@ -25,3 +25,9 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+::selection {
+  background-color: #9ea71942; 
+}
