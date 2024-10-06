@@ -2,6 +2,8 @@ import React from 'react'
 import Nav, { NavBottom } from './Nav'
 import Image from 'next/image'
 import { WiStars } from 'react-icons/wi'
+import Pricing from './Pricing'
+import PricingSection from './Pricing'
 
 function LemonSection() {
   return (
@@ -42,6 +44,7 @@ function LemonSection() {
       
      </div>
      </div>
+     <PricingSection/>
 
       {/* 
      <div className='w-fit mt-20 relative rounded-3xl overflow-hidden  bg-neutral-800'>
@@ -57,6 +60,9 @@ function LemonSection() {
      </div>
      */}
   
+
+
+    
   
    </div>
    </div>
